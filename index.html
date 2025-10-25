@@ -706,27 +706,7 @@
         // INSTRUCTIONS FOR SQUARE INTEGRATION:
         // 1. Add this script tag to the <head> section:
         //    <script src="https://web.squarecdn.com/v1/square.js"></script>
-        // 
-        // 2. Replace YOUR_LOCATION_ID with your actual Square Location ID
-        // 
-        // 3. Add this initialization code:
-        /*
-        async function initializeSquare() {
-            const payments = Square.payments('YOUR_APPLICATION_ID', 'YOUR_LOCATION_ID');
-            const card = await payments.card();
-            await card.attach('#square-payment-form');
-            
-            // Handle payment submission
-            document.getElementById('square-payment-form').addEventListener('submit', async (e) => {
-                e.preventDefault();
-                const result = await card.tokenize();
-                if (result.status === 'OK') {
-                    // Send result.token to your server
-                }
-            });
-        }
-        // initializeSquare();
-        */
+       
     </script>
 </body>
 </html>
